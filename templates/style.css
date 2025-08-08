@@ -1,0 +1,30 @@
+body {
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+}
+.shopee-navbar {
+  background-color: #ee4d2d;
+}
+.card-product {
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  transition: 0.2s ease;
+}
+.card-product:hover {
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.card-product img {
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+}
+.price {
+  color: #ee4d2d;
+  font-weight: bold;
+  font-size: 18px;
+}
+.btn-buy {
+  background-color: #ee4d2d;
+  color: white;
+}
