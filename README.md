@@ -43,7 +43,7 @@ php-native-toko/
    ```
 
 ## 🔑 Login Admin
-- **URL**: [https://toko.rhn.my.id/admin](https://toko.rhn.my.id/admin)  
+- **URL**: [https://toko.rhn.my.id/login](https://toko.rhn.my.id/login)  
 - **Username**: `admin`  
 - **Password**: `admin123`
 
