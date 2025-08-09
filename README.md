@@ -49,7 +49,7 @@ php-native-toko/
 
 ## 🖼️ Demo Online
 - [Beranda Toko](https://toko.rhn.my.id/)  
-- [Halaman Admin](https://toko.rhn.my.id/admin)
+- [Halaman Admin](https://toko.rhn.my.id/admin/)
 
 ---
 
