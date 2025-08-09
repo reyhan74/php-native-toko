@@ -12,43 +12,46 @@ Mendukung pembelian produk, login admin, dan pengelolaan data toko.
 - Tampilan responsive sederhana.
 
 ## 📂 Struktur Folder
+```
 php-native-toko/
 │
-├── admin/ # Halaman dan fitur khusus admin
-├── assets/ # File CSS, JS, gambar, dll.
-├── config/ # Konfigurasi database
-├── pages/ # Halaman utama toko
-├── templates/ # Template tampilan
+├── admin/          # Halaman dan fitur khusus admin
+├── assets/         # File CSS, JS, gambar, dll.
+├── config/         # Konfigurasi database
+├── pages/          # Halaman utama toko
+├── templates/      # Template tampilan
 │
-├── beli.php # Halaman form pembelian
-├── index.php # Halaman utama
-├── login.php # Halaman login
+├── beli.php        # Halaman form pembelian
+├── index.php       # Halaman utama
+├── login.php       # Halaman login
 ├── proses_beli.php # Proses penyimpanan pembelian
-├── status.php # Cek status pesanan
-└── toko.rar # Arsip proyek
-
+├── status.php      # Cek status pesanan
+└── toko.rar        # Arsip proyek
+```
 
 ## ⚙️ Instalasi
 1. Clone repository:
    ```bash
    git clone https://github.com/reyhan74/php-native-toko.git
-2. Pindahkan folder ke direktori web server (misal: htdocs untuk XAMPP).
+   ```
+2. Pindahkan folder ke direktori web server (misal: `htdocs` untuk XAMPP).
 3. Buat database baru di MySQL dan import file SQL (jika tersedia).
-4. Ubah konfigurasi database di folder config/ sesuai dengan pengaturan server.
+4. Ubah konfigurasi database di folder `config/` sesuai dengan pengaturan server.
 5. Jalankan di browser:
-http://localhost/php-native-toko/
+   ```
+   http://localhost/php-native-toko
+   ```
 
-🔑 Login Admin
-URL: https://toko.rhn.my.id/admin
+## 🔑 Login Admin
+- **URL**: [https://toko.rhn.my.id/admin](https://toko.rhn.my.id/admin)  
+- **Username**: `admin`  
+- **Password**: `admin123`
 
-Username: admin
+## 🖼️ Demo Online
+- [Beranda Toko](https://toko.rhn.my.id/)  
+- [Halaman Admin](https://toko.rhn.my.id/admin)
 
-Password: admin123
+---
 
-🖼️ Demo Online
-Beranda Toko
-
-Halaman Admin
-
-✍️ Dibuat oleh: Reyhan
+✍️ **Dibuat oleh**: Reyhan  
 📅 Tahun: 2025
